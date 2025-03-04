@@ -1,1 +1,49 @@
-https://chatgpt.com/c/67c6b09d-c79c-8003-9b49-6bc77630b4c5
+Tmux is a powerful terminal multiplexer that helps improve productivity. Here are some useful **Tmux shortcuts** to boost your workflow:
+
+---
+
+### **Session Management**
+- `tmux new -s <name>` → Create a new session  
+- `tmux ls` → List all sessions  
+- `tmux attach -t <name>` → Attach to a session  
+- `tmux detach` (`Ctrl-b d`) → Detach from a session  
+- `tmux kill-session -t <name>` → Kill a session  
+
+---
+
+### **Pane Management**
+- `Ctrl-b %` → Split pane vertically  
+- `Ctrl-b "` → Split pane horizontally  
+- `Ctrl-b o` → Switch between panes  
+- `Ctrl-b {` → Move pane left  
+- `Ctrl-b }` → Move pane right  
+- `Ctrl-b z` → Zoom in/out on a pane  
+- `Ctrl-b x` → Close the current pane  
+
+---
+
+**Window Management**
+- `Ctrl-b c` → Create a new window  
+- `Ctrl-b n` → Switch to the next window  
+- `Ctrl-b p` → Switch to the previous window  
+- `Ctrl-b w` → List all windows  
+- `Ctrl-b ,` → Rename the current window  
+- `Ctrl-b &` → Close the current window  
+
+---
+
+### **Copy & Paste Mode**
+- `Ctrl-b [` → Enter copy mode  
+- `Space` → Start selection  
+- `Enter` → Copy selection  
+- `Ctrl-b ]` → Paste  
+
+---
+
+### **Miscellaneous**
+- `Ctrl-b t` → Show a clock  
+- `Ctrl-b d` → Detach from tmux  
+- `Ctrl-b ?` → Show key bindings  
+- `tmux source-file ~/.tmux.conf` → Reload Tmux config  
+
+Would you like a custom `.tmux.conf` file to streamline your setup? 🚀
